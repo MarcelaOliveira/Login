@@ -20,8 +20,8 @@ const FormLogin = (props) => (
               />
             </div>
             <div className="mb-3">
-              <label className="form-label">Email</label>
               <Input
+                label="Email"
                 type="email"
                 className="form-control"
                 id="email"
@@ -32,8 +32,8 @@ const FormLogin = (props) => (
               />
             </div>
             <div className="mb-3">
-              <label className="form-label">Senha</label>
               <Input
+                label="Senha"
                 type="password"
                 id="senha"
                 name="senha"
